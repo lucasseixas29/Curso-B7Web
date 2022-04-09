@@ -8,8 +8,17 @@ var tipo = typeof idade;
 //Mostrando no console o resultado
 console.log(tipo);
 
-function alterar() {
-    document.getElementById('titulo').innerHTML = "trocou o titulo";
-    document.getElementById('campo').value = "trocou o campo";
+function alterar(titulo) {
+    document.getElementById('titulo').innerHTML = titulo;
+    document.getElementById('campo').value = titulo;
 }
-alterar();
+
+function somar(x, y) {
+let total = x +y;
+
+return total;
+
+}
+var resultado = somar(10,15);
+
+console.log(resultado);
