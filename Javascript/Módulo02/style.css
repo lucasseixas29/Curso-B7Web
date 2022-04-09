@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.preto { background-color: black;
+    color: white;
+
+}
+
+.verde {
+
+    background: lightgreen;
+    color: black;
+}
