@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+.texto{
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    background-color: lightgray;
+}
+
 .preto { background-color: black;
     color: white;
 
@@ -9,4 +16,15 @@
 
     background: lightgreen;
     color: black;
+}
+
+.imagem{
+
+    height: 400px;
+}
+
+div {
+    margin: 50px;
+   
+
 }
