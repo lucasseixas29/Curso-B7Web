@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+}
+
+table thead {
+    background-color: #CCC;
+}
+
+th {
+    font-weight: normal;
+}
+
+th, td{
+    padding: 10px;
+}
+
+tbody tr:hover{
+    background-color: #EEE;
+}
+
+tbody td {
+    border-bottom: 1px solid #CCC;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #DDD;
+}
