@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.box {
+    font-size: 15px;
+    background-color: #999;
+    height: 50vh;
+    color:#0000ff
+}
+
+h1 {
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.box h1 {
+    font-size: inherit;
+    color: inherit;
+}

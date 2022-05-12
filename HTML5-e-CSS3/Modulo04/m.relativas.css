@@ -1,0 +1,12 @@
+
+.box {
+    font-size: 20px;
+    height: 400px;
+    background-color: #999;
+}
+
+.box-interno {
+    width: 50%;
+    height: 50%;
+    background-color: #333;
+}
