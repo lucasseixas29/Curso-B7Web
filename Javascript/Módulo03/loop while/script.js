@@ -7,5 +7,5 @@ while(c < 10) {
     c++; 
 }
 
-
+console.log(html)
 
