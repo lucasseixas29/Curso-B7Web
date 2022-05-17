@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: 500px;
+    background-color: #DDDDDD;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
