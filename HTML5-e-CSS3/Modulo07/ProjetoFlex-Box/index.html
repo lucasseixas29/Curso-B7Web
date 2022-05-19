@@ -4,6 +4,23 @@
     <meta name="viewport" content="width=device-width, use-scalable=0">
     <title>MediCenter</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript">
+        onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none'   
+                } else {
+                    document.querySelector(".menu nav ul").style.display ='flex'
+                }
+                window.addEventListener('resize', function () {
+                var largura = window.innerWidth;
+
+                if (largura > 600)
+                 document.querySelector(".menu nav ul").removeAttribute('style');
+        });
+            })
+        }
+    </script>
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     </head>
 <body>
@@ -15,6 +32,11 @@
    
            <div class="menu">
                <nav>
+                   <div class="menu_mobile">
+                       <div class="mm_line"></div>
+                       <div class="mm_line"></div>
+                       <div class="mm_line"></div>
+                   </div>
                    <ul>
                        <li class="active"><a href="">Home</a></li>
                        <li><a href="">Blog</a></li>
@@ -202,48 +224,76 @@
         <div class="container flexColumn">
             <div class="footer_menu">
                 <div class="fm1">
-                    ...
+                    <a href="" class="link_footer">Health Insurance</a>
+                    <div class="footer_desc">Here in medicenter we have individual &#x2192; </div>
                 </div>
                 <div class="fm2">
-                    ...
+                    <a href="" class="link_footer">Medical Records</a>
+                    <div class="footer_desc">Here in medicenter we have individual &#x2192; </div>
                 </div>
                 <div class="fm3">
-                    ...
+                    <a href="" class="link_footer">Online Bills</a>
+                    <div class="footer_desc">Here in medicenter we have individual &#x2192; </div>
                 </div>
-             </div>
+            </div>
 
-             <div class="footer_area">
-                 <div class="footer_areaitem">
+            <div class="footer_area">
+                <div class="footer_areaitem">
                     <div class="widget">
                         <div class="widget_title">
                             <div class="widget_title_text">Medicenter Clinic</div>
                             <div class="widget_title_bar"></div>
+                            <div class="footer_01">Mauris adipiscing mauris fringila turpis interdeum sed pulvinar nisi malesuada individual</div>
+                            <div class="footer_01A">Medicenter clinic</div>
+                            <div class="footer_01A">33 Farlane Street <div class="test"> +123 99999</div></div>
+                            <div class="footer_01A">Keilor East <div class="test01">+123 999999</div></div>
+                            <div class="footer_01A">VIC 3033, Australia <div class=test02>medicenter@email.com</div></div>
+                            <div class="footer_icon"><img src="assets/images/facebook.png" width="20px">
+                                <img src="assets/images/twitter.png" width="20px" class="footer_icon">
+                                <img src="assets/images/linkedin.png" width="20px" class="footer_icon">
+                            </div>
                         </div>
-                        <div class="widget_body"></div>
-                 </div>
-                 <div class="footer_areaitem">
+                    </div>
+                </div>
+                <div class="footer_areaitem">
                     <div class="widget">
                         <div class="widget_title">
                             <div class="widget_title_text">Latest Posts</div>
                             <div class="widget_title_bar"></div>
-
-                        <div class="widget_body"></div>
-                 </div>
-                 <div class="footer_areaitem">
+                            <div class="footer_latest_posts">
+                                <div>&#x2192; Mauris adipiscing mauris fringila turtpis interdum: pulvinar nisi malesuada.</div>
+                                <a href="" class="link_01">1 years ago</a>
+                                <div>&#x2192; Lorem ipsum dolor sit amat valeum.</div>
+                                <a href="" class="link_01">3 years ago</a>
+                                <div>&#x2192; Mauris adipiscing mauris fringila turtpis interdum: pulvinar nisi malesuada. </div>
+                                <a href="" class="link_01">7 years ago</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
                     <div class="widget">
                         <div class="widget_title">
                             <div class="widget_title_text">Latest Tweets</div>
-                            <div class="widget_title_bar">
+                            <div class="widget_title_bar"></div>
+                            <div class="latest_tweets">&#x2192; Mauris adipiscing mauris fringila turtpis interdum: pulvinar nisi malesuada. <br/>
+                                #eu estou aqui siipapaicris
                             </div>
-                    
-                        <div class="widget_body">
-                            
+                            <a href="" class="link_01">2 days ago</a>
+                            <div class="latest_tweets">&#x2192; Lorem ipsum dolor sit amat valeum. <br/>
+                                #Cr7 e Messi em um time juntos
+                            </div>
+                            <a href="" class="link_01">5 days ago</a>
+                            <div class="latest_tweets">&#x2192; Mauris adipiscing mauris fringila turtpis interdum: pulvinar nisi malesuada. <br/>
+                            #vamos progredir no css </div>
+                            <a href="" class="link_01">7 days ago</a>
                         </div>
-                 </div>
-             </div>
-             <div class="footer_copy">
-                 Copyright - Todos os direitos reservados.
-             </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="footer_copy">
+                &copy; Copyright - Todos os direitos reservados.
+            </div>  
         </div>
     </footer>
 
