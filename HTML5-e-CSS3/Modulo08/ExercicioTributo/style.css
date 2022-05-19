@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dcd9d9;
+}
+
+h1 {
+    text-align: center;
+}
+.subtitle {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #e7e2e2
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color:#fff;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom:3px;
+}
+.comemoracao {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.content img {
+    margin: 1px;
+    border-radius: 15px;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+p {
+    text-align: center;
+    font-size: 14px;
+}
+.conquistas {
+    font-size: 22px;
+    text-align: center;
+}
+.lista {
+    display: flex;
+    text-decoration: none;
+    line-height: 25px;
+    justify-content: center;
+}
+ul {
+    background-color: #c9c7c7;
+    border-radius: 20px;
+    width: 250px;
+}
+footer {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top:1px solid #e7e2e2 ;
+}
+
+footer a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
