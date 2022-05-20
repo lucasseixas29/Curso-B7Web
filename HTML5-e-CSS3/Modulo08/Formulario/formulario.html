@@ -5,26 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <form action="post">
-        <h1>Criar nova conta</h1>
-        <p>Nome</p>
-        <input type="text" name="Nome" required> <br/>
-        <p>E-mail</p>
-        <input type="email" name="Email" required> <br/>
-        <p>Senha</p>
-        <input type="password" name="Senha" required> <br/>
-        <p>Qual marca do seu carro ?</p>
-        <input type="radio" name="carro"> Gm
-        <input type="radio" name="carro"> Vw
-        <input type="radio" name="carro"> Fiat
-        <p>Seu carro é usado ?</p>
-        <input type="radio" name="marca">Sim <input type="radio" name="marca"> Não
-        <br/> <br/> <br/>
-        <input type="checkbox" name="Notificações" id=""> Receber promoções pelo E-mail ? <br/> <br/>
-        <input type="button" value="Criar conta">
-    </form>
+
+    <div class="container">
+        <div class="first_content">
+            <form action="get">
+                <img src="user.png" width="64px">
+                <h1 class="title_create">Criar nova conta</h1>
+                <p class="nome">Nome</p>
+                <input type="text" name="Nome" required> <br/>
+                <p class="nome">E-mail</p>
+                <input type="email" name="Email" required> <br/>
+                <p class="nome">Senha</p>
+                <input type="password" name="Senha" required> <br/>
+                <p class="questions">Qual marca do seu carro ?</p>
+                <input type="radio" name="carro"/> <persona>Gm</persona>
+                <input type="radio" name="carro"/> <persona>Vw</persona>
+                <input type="radio" name="carro"/> <persona>Fiat</persona>
+                <p class="questions">Seu carro é usado ?</p>
+                <input type="radio" name="marca" class="radio"/><persona>Sim</persona> <input type="radio" name="marca" class="radio"/> <persona>Não</persona>
+                <br/> <br/> 
+                <input type="checkbox" name="Notificações"/> <persona>Receber promoções pelo E-mail ?</persona> <br/> <br/>
+                <button>Criar conta &#8594;</button>
+                <div class="icon">
+                    <img src="facebook.png" width="20px">
+                    <img src="linkedin.png" width="20px">
+                    <img src="twitter.png" width="20px">
+                </div>
+
+               </div>
+            </form>
+
+            <form action="post">
+                <div class="box">
+                    <div class="">
+                       <h1 class="title_login">Seja bem vindo</h1>
+                       <p class="dica">entre pelas redes sociais</p>
+                       <aside>
+                           <img src="facebook.png" width="25px" class="img_login">
+                           <img src="twitter.png" width="25px" class="img_login">
+                           <img src="linkedin.png" width="25px" class="img_login">
+                       </aside>
+                
+                
+                           <div class="line">
+                               <p class="ou">ou
+                           </div>
+                
+                
+                               <input type="text" class="login" autofocus required/> <br>
+                               <input type="password" class="login" required/>
+                
+                           <div class="div_login">
+                               <button class="button_login">Entrar</button></div>
+                                <div class="border"></div>
+                               <footer>
+                                   <div class="footer_copy">Criado por <a href="https://github.com/lucasseixas29" target="_blank">Lucas Seixas</a></div>
+                               </footer>
+            </form>
+                </div>
+                
+           
+           
+           
+           
+           
+           
+           
+           </div>
+        </div>
+
+    </div>
+
 </body>
 </html>
