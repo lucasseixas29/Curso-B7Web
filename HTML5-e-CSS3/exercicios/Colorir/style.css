@@ -1,0 +1,14 @@
+.header{
+    background-color: #00f;
+    color: #fff;
+    font-size: 35px;
+}
+.header span{
+    font-size:25px;
+}
+.menu{
+    background-color: #f00;
+}
+strong{
+    color: #00ff00;
+}
