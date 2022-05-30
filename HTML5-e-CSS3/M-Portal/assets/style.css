@@ -177,9 +177,8 @@ input {
 }
 .leftside {
     width: 753px;
-    min-height: 200px;
     float: left;
-    background-color: #999;
+    
 }
 .rightside {
     width: 275px;
@@ -215,4 +214,17 @@ input {
 .noticias_item a {
     text-decoration: none;
     color: #000;
+}
+.slideshow {
+    height: 335px;
+    background-color: #ccc;
+    overflow:hidden;
+}
+.slideshowarea {
+    height: 335px;
+    background-color: #ddd;
+}
+.slide {
+    height: 335px;
+    float: ;
 }
