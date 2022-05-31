@@ -5,24 +5,36 @@ body{
 .container {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .logo {
-    padding-left: 20px;
-    padding-top: 30px ;
-    padding-right: 10px;
+    padding-left: 100px;
+    padding-top: 40px ;
+    padding-right: 35px;
 }
 
 .input {
     width: 533px;
-    height: 42px;
+    padding-top: 25px;
     border-radius: 40px;
     border: 1px solid #ccc;   
-    border-right: none
+    border-right: none;
+    box-shadow: 1px 2px 5px #ccc;
+    text-align: center;
+}
+.input:hover {
+    border: 1px solid #dadada;
+    box-shadow: 4px 4px 10px #ccc
+}
+input{
+    outline: 0;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 380px;
 }
 .botoes {
-margin-top: 10px;
-margin-right: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 .botoes_01 {
     padding-right: 20px;
@@ -32,28 +44,41 @@ margin-right: 20px;
     border-radius: 50%;
 }
 .opcoes {
-    padding-bottom: 10px;
-    margin-left: 120px;
+    padding-left: 70px;
     display: flex;
-    border-bottom: 1px solid #ccc;
 }
 .opcoes_op {
     margin-left:30px ;
 }
+.opcoes_op a {
+    text-decoration:none;
+}
+.todas {
+    color: #1a73e8;
+}
+.barra {
+    padding-top: 10px;
+    border-bottom: 3px solid #1a73e8;
+}
 .ferramentas {
-    margin-left: 100px
+    margin-left: 100px;
+}
+.ferramentas a {
+    text-decoration: none;
 }
 .aprox {
-    margin-left: 150px;
+    padding-left: 100px;
+    padding-top: 12px;
     color: #646464;
     font-size: 15px;
-    margin-top: 10px;
+    border-top: 1px solid #ccc;
 }
 .result {
-    margin-left: 150px;
+    margin-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 h3 a {
+    text-decoration: none;
     color: #2626bb;
 }
 .url {
@@ -64,8 +89,9 @@ h3 a {
     padding: 0;
     width: 530px;
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 20px;
+    color: #484848;
 }
 .relacionadas {
     display: flex;
@@ -76,37 +102,77 @@ h3 a {
 }
 .relacionadas_result  {
     display: flex;
+    
     flex-wrap: wrap;
-    flex-direction: column;
 }
 .rr01 {
-    width: 200px;
+    width: 318px;
+    height: 25px;
     background-color: #eeeaea;
     margin-bottom: 5px;
-    border-radius: 10px;
+    border-radius: 60px;
     padding: 10px;
     text-align: center;
 }
+
 .logo_section {
   margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
 }
-.logo_section a {
+.number {
     text-decoration: none;
-    
+    font-size: 16px;
+}
+.mais {
+    text-decoration: none;
+    padding-left: 35px;
 }
 
 .footer_first {
     display: flex;
     background-color: #eee;
+    margin-top: 45px;
 }
 .país {
     width: 180px;
-    height: 40px;
+    height: 35px;
     margin-right: 15px;
-    padding-right: 5px;
-    border-right: 1px solid #ddd;
+    padding-top: 15px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
     text-align: end;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #70757a;
 }
-.local a {
+.local {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.city {
+    font-size: 16px;
+    color:#484848;
     text-decoration: none;
+    font-weight: bold;
+}
+.info {
+    color: #0a0aa0;
+    text-decoration: none;
+}
+
+.footer_last {
+    display: flex;
+    background-color: #eee;
+    padding-left: 140px;
+    border-top: 1px solid #ccc;
+}
+.last_text {
+    padding-top: 20px;
+    padding-right: 25px;
+    height: 40px;
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
