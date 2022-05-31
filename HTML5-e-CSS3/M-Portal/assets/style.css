@@ -226,5 +226,12 @@ input {
 }
 .slide {
     height: 335px;
-    float: ;
+    float:left ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slideinfo {
+    height: 70px;
+    
 }
