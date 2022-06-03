@@ -1,0 +1,20 @@
+body {
+    margin: 50;
+    padding: 50;
+}
+table {
+    border: 1px solid #bbb;
+}
+thead {
+    background-color: #ccc;
+    color: #000;
+    font-weight: bold;
+}
+.impar {
+    background-color: #eee;
+    color: #000;
+}
+.par {
+    background-color: #3535f854;
+    color: #000;
+}
