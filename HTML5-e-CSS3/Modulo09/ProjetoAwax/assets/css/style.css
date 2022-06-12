@@ -482,6 +482,7 @@ css de áreas específicas
 .empresas {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-top: 50px;
     padding-right: 20px;
     padding-left: 40px;
@@ -510,8 +511,10 @@ css de áreas específicas
 }
 .prices-info {
     display: flex;
+    justify-content: center;
     margin-left: 35px;
     margin-right: 0px;
+    
     
 }
 .express {
@@ -547,12 +550,14 @@ css de áreas específicas
     border: none;
     font-size: 12px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .premium-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 0px;
 }
 .premium-container h2 {
     text-transform: uppercase;
@@ -564,6 +569,7 @@ css de áreas específicas
     font-weight: 600;
     text-transform: uppercase;
     font-size: 12px;
+    margin-bottom: 0px;
 }
 .feature {
     height: calc(100vh - 100px);
@@ -571,6 +577,7 @@ css de áreas específicas
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
+    border-top: 1px solid #CCC;
 }
 .feature .sliders {
     display: flex;
@@ -585,18 +592,18 @@ css de áreas específicas
 .feature .slidearea--feature  {
     display: flex;
     height: 100%;
-    align-items: center;
-    justify-content: center;
+    margin-top: 30px;
 }
 .feature .sliders-pointers {
     width: 100vw;
     height: 20px;
     position: absolute;
-    margin-top: -100px;
+    margin-top: -170px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #DDD;
+    border-top: 1px solid #CCC;
+    
 }
 .feature  .pointer {
     width: 15px;
@@ -605,7 +612,7 @@ css de áreas específicas
     border-radius: 8px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 80px;
+    margin-top: 100px;
     cursor: pointer;
 }
 .feature .pointer.active {
@@ -614,9 +621,13 @@ css de áreas específicas
 .slidearea--feature .livros {
     margin-left:300px;
 }
+.livros {
+    margin-top: 30px;
+}
 
 .number-features {
     margin-left: 30px;
+    margin-top: 0px;
 }
 .number-features h2 {
     text-align: left;
@@ -629,11 +640,161 @@ css de áreas específicas
     margin-right: 10px;
 }
 .number-features p {
-    margin-left: 35px;
+    width: 550px;
+    margin-left: 36px;
     text-align: left;
     color: #999;
     line-height: 20px;
 }
 .dark--somefacts {
-    margin-top: 85px;
+    margin-top: 60px;
+}
+.section-service-bottom {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+.section-service-bottom h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section-service-bottom p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+.section-service-bottom h1 {
+    font-size: 45px;
+    color: #b28756;
+}
+.fact-line {
+    width: 20px;
+    border-bottom: 2px solid #B28756;
+    margin: auto;
+}
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFF;
+    color: #999;
+}
+.social-medias--info {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.social-medias--info p {
+    margin-left:10px
+}
+.social-share {
+    font-size: 12px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #CCC;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    background-color: #34c5f0;
+}
+.linkedin {
+    background-color: #127cb4;
+}
+.facebook {
+    background-color: #336297;
+}
+.google {
+    background: #e74237;
+}
+.pinterest {
+    background-color: #b71c29;
+}
+.form-contact-us {
+    background-color: #f7f7f7;
+}
+.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.contact-us h1 {
+    font-weight: 550;
+    margin-top: 40px;
+}
+.contact-us p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #CCC;
+    margin-bottom: 50px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.form input {
+    border: none;
+    border-bottom: 1px solid #CCC;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.complement-form {
+    display: flex;
+    justify-content: center; 
+}
+.complement-form input {
+    width: 355px;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.message {
+    display: flex;
+    justify-content: center;
+}
+.message input {
+    width: 355px;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+input:focus {
+    outline: 0;
+}
+.button-form {
+    display: flex;
+    justify-content: center;
+}
+.button-form button {
+    display: inline-block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
